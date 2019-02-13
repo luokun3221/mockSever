@@ -1,5 +1,5 @@
 # mockSever
-
+数据库创建表：
 create table MockInfo(
   id  int not null auto_increment,
   ip varchar(32),
