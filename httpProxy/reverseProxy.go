@@ -52,7 +52,7 @@ func HttpPoxy(rw http.ResponseWriter, req *http.Request)(string, error){
 	if err != nil {
 		fmt.Print(err)
 		rw.WriteHeader(http.StatusBadGateway)
-		return "",nil
+		return "",err
 	}
 
 	//step 3
